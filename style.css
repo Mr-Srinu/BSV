@@ -1,8 +1,8 @@
- {
-  margin: 0;
+ /* {
+  margin: 0;ss
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   display: flex;
@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #27272c;
+  background: #171736;
 }
 
 button {
@@ -24,7 +24,7 @@ button {
   letter-spacing: 0.1rem;
   font-size: 1rem;
   padding: 1rem 3rem;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 button:hover {
