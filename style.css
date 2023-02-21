@@ -11,7 +11,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #171736;
+  background-image:url(bg-image.jpg.jpg);
+  background-attachment: fixed;
 }
 
 button {
@@ -24,7 +25,8 @@ button {
   letter-spacing: 0.1rem;
   font-size: 1rem;
   padding: 1rem 3rem;
-  transition: 0.1s;
+  transition: 0.2s;
+border-radius: 10%;
 }
 
 button:hover {
@@ -34,6 +36,7 @@ button:hover {
   color: var(--clr);
   /* box-shadow: 0 0 35px var(--clr); */
   animation: box 3s infinite;
+  border-radius: 10%;
 }
 
 button::before {
@@ -41,14 +44,19 @@ button::before {
   position: absolute;
   inset: 2px;
   background: #272822;
+  border-radius: 10%;
 }
 
 button span {
   position: relative;
   z-index: 1;
+  border-radius: 10%;
 }
 button i {
   position: absolute;
   inset: 0;
   display: block;
+}
+h1 {
+  color: #5ef643c4;
 }
