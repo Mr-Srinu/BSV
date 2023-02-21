@@ -2,7 +2,7 @@ import java.util.Calendar;
 import java.util.Scanner;
 import java.util.*;
 
-class MENU
+class Main
 {
 
 
