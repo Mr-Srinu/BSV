@@ -34,7 +34,7 @@ button:hover {
   background: var(--clr);
   color: var(--clr);
   box-shadow: 0 0 35px var(--clr); 
-  animation: box 8s infinite;
+  animation: box 20s infinite;
   border-radius: 10%;
 }
 
