@@ -1,0 +1,14 @@
+.nav{
+    background-color: dimgray;
+    height: 50px;
+    width: 100%;
+}
+#1{
+    width: 100px;
+    margin-right: 70px;
+    padding: 20px;
+}
+#2
+{
+    display: inline;
+}
